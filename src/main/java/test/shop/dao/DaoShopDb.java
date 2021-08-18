@@ -1,7 +1,6 @@
 package test.shop.dao;
 
-public interface ShopDAO {
-    void createTable(String SQL_CREATE);
+public interface DaoShopDb {
 
     void insertRow(String SQL_INSERT);
 
@@ -9,5 +8,5 @@ public interface ShopDAO {
 
     void deleteRow(String SQL_DELETE);
 
-    Class selectList(String SQL_SELECT);
+//    Class selectList(String SQL_SELECT);
 }
